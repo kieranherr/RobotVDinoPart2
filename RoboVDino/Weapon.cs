@@ -8,5 +8,12 @@ namespace RoboVDino
 {
     class Weapon
     {
+        private int[] attackMovesRobo;
+        private int[] attackMovesDino;
+
+        public Weapon()
+        {
+
+        }
     }
 }
