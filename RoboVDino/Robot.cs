@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoboVDino
 {
-    class Class5
+    class Robot
     {
     }
 }
