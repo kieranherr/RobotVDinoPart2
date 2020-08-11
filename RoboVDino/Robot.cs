@@ -19,9 +19,12 @@ namespace RoboVDino
             this.roboHealth = roboHealth;
             this.weapon = weapon;
         }
-        public int PassRoboHealth()
+        public void Attack(Dinosaur dinosaur)
         {
-            return roboHealth;
+            dinosaur.dinoHealth -= weapon.ChooseAttackRobo();
+            energy--;
+            Console.WriteLine("The health of " + dinosaur.dinoName + " is " + dinosaur.dinoHealth + " HP.");
+            Console.ReadLine();
         }
     }
 }
