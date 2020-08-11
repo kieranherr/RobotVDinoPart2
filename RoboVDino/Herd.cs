@@ -9,14 +9,14 @@ namespace RoboVDino
     class Herd
     {
         public Weapon weapon = new Weapon();
-        public Dinosaur dino1;
-        public Dinosaur dino2;
-        public Dinosaur dino3;
+        public Dinosaur Velo;
+        public Dinosaur Tri;
+        public Dinosaur Indo;
         public Herd()
         {
-            dino1 = new Dinosaur("PlaceHolder", 0, 0, 0);
-            dino2 = new Dinosaur("PlaceHolder", 0, 0, 0);
-            dino3 = new Dinosaur("PlaceHolder", 0, 0, 0);
+            Velo = new Dinosaur("Velociraptor", 100, 12, weapon);
+            Tri = new Dinosaur("Triceratops", 150, 7, weapon);
+            Indo = new Dinosaur("Indominus Rex", 200, 5, weapon);
         }
     }
 }
