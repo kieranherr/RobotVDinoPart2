@@ -10,14 +10,18 @@ namespace RoboVDino
     {
         public string roboName = "";
         public int energy = 0;
-        public int attackPower = 0;
+        public int roboHealth = 0;
         Weapon weapon;
-        public Robot(string roboName, int energy, int attackPower, Weapon weapon)
+        public Robot(string roboName, int energy, int roboHealth, Weapon weapon)
         {
             this.roboName = roboName;
             this.energy = energy;
-            this.attackPower = attackPower;
+            this.roboHealth = roboHealth;
             this.weapon = weapon;
+        }
+        public int PassRoboHealth()
+        {
+            return roboHealth;
         }
     }
 }
