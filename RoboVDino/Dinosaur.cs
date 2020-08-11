@@ -20,6 +20,12 @@ namespace RoboVDino
             this.energy = energy;
             this.attackPower = attackPower;
         }
-
+        public void Attack(Robot robot)
+        {
+            robot.roboHealth -= attackPower;
+            energy--;
+            Console.WriteLine("The health of "+robot.roboName+" is "+robot.roboHealth+" HP.");
+            Console.ReadLine();
+        }
     }
 }
