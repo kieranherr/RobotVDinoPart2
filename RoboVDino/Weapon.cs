@@ -57,7 +57,7 @@ namespace RoboVDino
             Console.WriteLine("3: Flame Thrower");
             Console.WriteLine("4: Nun Chucks");
             Console.WriteLine("5: Sawed Off Shotgun");
-            int choice = Convert.ToInt32(Console.ReadLine()) - 1;
+             int choice = Convert.ToInt32(Console.ReadLine()) - 1;
             switch (choice)
             {
                 case 0:

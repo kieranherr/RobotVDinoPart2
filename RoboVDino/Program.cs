@@ -10,6 +10,8 @@ namespace RoboVDino
     {
         static void Main(string[] args)
         {
+            Battlefield battlefield = new Battlefield();
+            battlefield.PlayGame();
         }
     }
 }

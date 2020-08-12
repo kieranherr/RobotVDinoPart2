@@ -9,14 +9,20 @@ namespace RoboVDino
     class Herd
     {
         public Weapon weapon = new Weapon();
-        public Dinosaur Velo;
-        public Dinosaur Tri;
-        public Dinosaur Indo;
+        Dinosaur Velo;
+        Dinosaur Tri;
+        Dinosaur Indo;
+        public List<Dinosaur> dinosaurs;
         public Herd()
         {
+            
             Velo = new Dinosaur("Velociraptor", 100, 12, weapon);
             Tri = new Dinosaur("Triceratops", 150, 7, weapon);
             Indo = new Dinosaur("Indominus Rex", 200, 5, weapon);
+            dinosaurs = new List<Dinosaur>();
+            dinosaurs.Add(Velo);
+            dinosaurs.Add(Tri);
+            dinosaurs.Add(Indo);
         }
     }
 }

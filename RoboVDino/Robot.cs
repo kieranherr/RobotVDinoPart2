@@ -11,7 +11,7 @@ namespace RoboVDino
         public string roboName = "";
         public int energy = 0;
         public int roboHealth = 0;
-        Weapon weapon;
+        Weapon weapon; //Attack Power
         public Robot(string roboName, int energy, int roboHealth, Weapon weapon)
         {
             this.roboName = roboName;

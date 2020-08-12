@@ -11,7 +11,7 @@ namespace RoboVDino
         public string dinoName = "";
         public int dinoHealth = 0;
         public int energy = 0;
-        public Weapon weapon;
+        public Weapon weapon; //Attack Power
 
         public Dinosaur(string dinoName, int dinoHealth, int energy, Weapon weapon)
         {
